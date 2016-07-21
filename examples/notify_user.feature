@@ -1,5 +1,5 @@
 Feature: Notify user when ice man is within walking distance
-  As an IMANOS user 
+  As an MOINI user
   I want to be notified when the iceman is within walking distance
   so that I can get an ice cream when its hot
 
