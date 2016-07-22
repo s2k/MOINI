@@ -31,9 +31,6 @@ GEM
     pry-doc (0.9.0)
       pry (~> 0.9)
       yard (~> 0.8)
-    rack (1.6.4)
-    rack-protection (1.5.3)
-      rack
     rainbow (2.1.0)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
@@ -55,12 +52,7 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
     ruby-progressbar (1.8.1)
-    sinatra (1.4.7)
-      rack (~> 1.5)
-      rack-protection (~> 1.4)
-      tilt (>= 1.3, < 3)
     slop (3.6.0)
-    tilt (2.0.5)
     unicode-display_width (1.1.0)
     yard (0.9.4)
 
@@ -75,7 +67,6 @@ DEPENDENCIES
   rspec
   rspec-expectations
   rubocop
-  sinatra
 
 RUBY VERSION
    ruby 2.3.1p112

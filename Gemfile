@@ -14,7 +14,3 @@ group :development do
   gem 'rspec'
   gem 'rubocop'
 end
-
-group :production do
-  gem 'sinatra'
-end
