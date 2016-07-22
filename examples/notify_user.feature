@@ -5,5 +5,5 @@ Feature: Notify user when ice man is within walking distance
 
   Scenario: The ice man is within the configured range
     Given Imogen sets her walking distance for MOINI to 250m
-    When there is an ice man close enough
+    When there is a registered ice man close enough
     Then Imogen receives a message where the iceman is exactly
