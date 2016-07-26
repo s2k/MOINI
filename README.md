@@ -1,6 +1,6 @@
 # MOINI - Mobile Online Ice Man Network Interface
 
-## BDD Live-Coding — Example
+## BDD Live-Coding — Beispiel
 
 ### Files & Folders
 
@@ -20,6 +20,7 @@
    * rbenv: http://rbenv.org/
 2. Ruby's Bibliotheken heißen `gems` und werden mit `gem install <gem_name>` installiert.
 3. Mit `bundler` (http://bundler.io/) — und einem `Gemfile` werden in der Rubywelt Abhängigkeiten zu verwendeten Gems verwaltet. Installiert wird das mit `gem install bundler`
+
 
 ### Die Gems installieren 
 
@@ -50,3 +51,7 @@ Post-install message from yard:
 .
 ~/dev/bdd_live_coding/bdd-02 (master) >
 ```
+
+Hinweis: Um im "Bundler-Kontext" `cucumber` (oder ein anderes über Bundler installiertes Kommando) 
+auszuführen sollte man `bundle exec cucumber` verwenden. Dann kann man sicher sein, dass man eine (erwartete) 
+Fehlermeldung bekommt, sollte man ein Ruby-Gem benutzen das zwar global installiert, aber nicht im `Gemfile` ingetragen ist.
