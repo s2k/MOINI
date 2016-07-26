@@ -7,4 +7,4 @@
 * `bdd-01`: Verzeichnis in den Live-Codeing lief
   * Die Dateien/Verzeichnisse darin: Das Ergebnis des Live-Codings
     bis zu dem Punkt wo es sinnvoll erscheint von BDD zu TDD zu wechseln.
-* bin/
+* `bin/initial_bdd_scripts.sh`: Script mit den ersten Schritten
