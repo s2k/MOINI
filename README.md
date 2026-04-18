@@ -1,11 +1,13 @@
 # MOINI - Mobile Online Ice Man Network Interface
 
+# MOINMOIN - Mobile Online Ice Man  MOnitoring Network Interface
+
 ## BDD Live-Coding — Beispiel
 
 ### Files & Folders
 
 * `Gemfile`: Beschreibung welche Bibiliotheken benutzt werden
-* `examples`: Beispiel für das 1. Szenario. 
+* `examples`: Beispiel für das 1. Szenario.
 * `bdd-01`: Verzeichnis in den Live-Codeing lief
   * Die Dateien/Verzeichnisse darin: Das Ergebnis des Live-Codings
     bis zu dem Punkt wo es sinnvoll erscheint von BDD zu TDD zu wechseln.
@@ -22,7 +24,7 @@
 3. Mit `bundler` (http://bundler.io/) — und einem `Gemfile` werden in der Rubywelt Abhängigkeiten zu verwendeten Gems verwaltet. Installiert wird das mit `gem install bundler`
 
 
-### Die Gems installieren 
+### Die Gems installieren
 
 Im `bdd_live_coding`-Verzeichnis `bundle install` ausführen -> die im `Gemfile` beschriebenen Gems werden installiert. Das Ganze sollte dann etwas so aussehen:
 
@@ -52,6 +54,6 @@ Post-install message from yard:
 ~/dev/bdd_live_coding/bdd-02 (master) >
 ```
 
-Hinweis: Um im "Bundler-Kontext" `cucumber` (oder ein anderes über Bundler installiertes Kommando) 
-auszuführen sollte man `bundle exec cucumber` verwenden. Dann kann man sicher sein, dass man eine (erwartete) 
+Hinweis: Um im "Bundler-Kontext" `cucumber` (oder ein anderes über Bundler installiertes Kommando)
+auszuführen sollte man `bundle exec cucumber` verwenden. Dann kann man sicher sein, dass man eine (erwartete)
 Fehlermeldung bekommt, sollte man ein Ruby-Gem benutzen das zwar global installiert, aber nicht im `Gemfile` ingetragen ist.
